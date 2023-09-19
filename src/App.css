@@ -1,0 +1,70 @@
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(24, 23, 21);
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  max-height: 86.7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  background-image: url("C:\Users\Osama\Downloads\pizzahut\public\background-img.jpg");
+  background-attachment: fixed;
+  font-family: "Nothing You Could Do", cursive;
+  color: rgb(243, 243, 94);
+}
+.bodyOfHome {
+  display: flex;
+  flex-direction: column;
+  margin: 160px;
+}
+/* ////////////// */
+.menu {
+  background-image: url("C:\Users\Osama\Downloads\pizzahut\public\black.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Poppins", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: rgb(243, 243, 94);
+  padding: 30px;
+}
+.about {
+  display: flex;
+  flex-direction: row;
+  font-family: "Poppins", Arial, sans-serif;
+}
+.about-background {
+  background-image: url("C:\Users\Osama\Downloads\pizzahut\public\black.jpg");
+  color: rgb(217, 212, 212);
+}
+
+.custom-textfield {
+  width: 300px;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sign {
+  background-image: url("C:\Users\Osama\Downloads\pizzahut\public\black.jpg");
+}
+.basket {
+  background-image: url("C:\Users\Osama\Downloads\pizzahut\public\black.jpg");
+}
